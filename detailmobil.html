@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Mobil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    </head>
+</head>
+<body>
+    <!-- Navbar -->
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg fixed-top " id="mainnav">
+            <div class="container">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav" style="margin-left: auto;">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Our Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Why Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Testimonial</a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-success">Register</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- hero kosong -->
+    <section id="heroesp" class="py-5 px-4 m-auto">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    </section>
+    <!-- Info Panel -->
+    <section id="infopanel">
+        <div class="container" id="pencariaanmu">
+            <div class="row justify-content-center m-auto">
+                <!-- row ngebantu buat kesamping-->
+                <div class="info-panel2">
+                    <!-- Area form -->
+                    <!-- g memperlebar form -->
+                    <form class="row row-cols-lg-auto p-2 align-items-justify">
+                        <div class="col-12">
+                            <label class="visually" for="inlineFormSelectPref">Preference</label>
+                            <select class="form-select" id="inlineFormSelectPref">
+                                <p>Tipe Driver</p>
+                                <option selected>Pilih tipe driver</option>
+                                <option value="1">Dengan Sopir</option>
+                                <option value="2">Tanpa Supir</option>
+                            </select>
+                        </div>
+    
+                        <div class="col-12">
+                            <label class="visually" for="inlineFormInputGroupUsername">Tanggal</label>
+                            <div class="input-group">
+                                <!-- input tanggal dengan typenya sendiri -->
+                                <input type="date" class="form-control" id="inlineFormInputGroupUsername"
+                                    placeholder="Username">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <label class="visually" for="inlineFormInputGroupUsername">Waktu Jemput Ambil
+                            </label>
+                            <select class="form-select" id="inlineFormSelectPref">
+                                <p>Tipe Driver</p>
+                                <option selected>Pilih Waktu</option>
+                                <option value="1" style="word-spacing: 7px;">08.00 WIB</option>
+                                <option value="2">Tanpa Supir</option>
+                                <option value="1">Dengan Sopir</option>
+                                <option value="2">Tanpa Supir</option>
+                                <option value="1">Dengan Sopir</option>
+                                <option value="2">Tanpa Supir</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <label class="visually" for="inlineFormInputGroupUsername">Jumlah Penumpang (optional)</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="inlineFormInputGroupUsername"
+                                    placeholder="Username">
+                                <div class="input-group-text">@</div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <br>
+                            <button type="button" class="cari-mobil-panel btn-primary">Cari mobil</button>
+                            <!-- <button type="submit" class="btn btn-primary">Edit</button> -->
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </section>
+    <section id="detail-mobil">
+        <div class="container">
+            <main>
+                <div class="row g-5">
+                    <div class="col-md-5 col-lg-4 order-md-last shadow-low">
+                        <h4 class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="text-primary">Nama/Tipe Mobil</span>
+                            <span class="badge bg-primary rounded-pill">3</span>
+                        </h4>
+                        <ul class="list-group mb-3">
+                            <li class="list-group-item d-flex justify-content-between lh-sm">
+                                <div>
+                                    <h6 class="my-0"><b>Harga</b></h6>
+                                    <small class="text-body-secondary">
+                                        <ul>
+                                            <li>1 mobil dengan pajak</li>
+                                        </ul>
+                                    </small>
+                                </div>
+                                <span class="text-body-secondary">Rp. 430.000</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between lh-sm">
+                                <div>
+                                    <h6 class="my-0"><b>Biaya Lainnya</b></h6>
+                                    <small class="text-body-secondary">
+                                        <ul type="disc">
+                                            <li>Pajak</li>
+                                            <li>Biaya makan sopir</li>
+                                        </ul>
+                                    </small>
+                                </div>
+                                <span class="text-body-secondary"></span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between lh-sm">
+                                <div>
+                                    <h6 class="my-0"><b>Belum </b></h6>Termasuk
+                                    <small class="text-body-secondary">
+                                        <ul type="disc">
+                                            <li>Bensin</li>
+                                            <li>Tol dan Parkir</li>
+                                        </ul>
+                                    </small>
+                                </div>
+                                <span class="text-body-secondary">$5</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span><b>Total</b></span>
+                                <strong><b>Rp 430.000</b></strong>
+                            </li>
+                        </ul>
+                        <div class="d-grid gap-2 d-md-flex justify-content-center">
+                            <button type="button" class="btn btn-success btn-s px-4 me-md-2">Mulai Sewa Mobil</button>
+                        </div>
+                    </div>
+        
+                    <!-- pilih pembayaran, tambahan kotak shadow di inline -->
+                    <div class="col-md-7 col-lg-8 shadow">
+                        <div class="tentang-paket">
+                            <h4 class="mb-3"><b>Tentang Paket</b></h4>
+                            <div class="tentang-paket-include">
+                                <p>Include</p>
+                                <ul type="disc">
+                                    <li>Apa saja yang termasuk dalam paket misal durasi max 12 jam</li>
+                                    <li>Sudah termasuk bensin selama 12 jam</li>
+                                    <li>Sudah termasuk Tiket Wisata</li>
+                                    <li>Sudah termasuk pajak</li>
+                                </ul>
+                            </div>
+                            <div class="tentang-paket-exclude">
+                                <p>Exclude</p>
+                                <ul type="disc">
+                                    <li>Tidak termasuk biaya makan sopir Rp 75.000/hari</li>
+                                    <li>Jika overtime lebih dari 12 jam akan ada tambahan biaya Rp 20.000/jam</li>
+                                    <li>Tidak termasuk akomodasi penginapan</li>
+                                </ul>
+                            </div>
+                            <h4><b>Refund, Reschedule, Overtime</b></h4>
+                            <div class="refund-reschedule-overtime">
+                                <ul type="disc">
+                                    <li>Tidak termasuk biaya makan sopir Rp 75.000/hari</li>
+                                    <li>Jika overtime lebih dari 12 jam akan ada tambahan biaya Rp 20.000/jam</li>
+                                    <li>Tidak termasuk akomodasi penginapan</li>
+                                    <li>idak termasuk biaya makan sopir Rp 75.000/hari</li>
+                                    <li>Jika overtime lebih dari 12 jam akan ada tambahan biaya Rp 20.000/jam</li>
+                                    <li>Tidak termasuk akomodasi penginapan</li>
+                                    <li>Tidak termasuk biaya makan sopir Rp 75.000/hari</li>
+                                    <li>Jika overtime lebih dari 12 jam akan ada tambahan biaya Rp 20.000/jam</li>
+                                    <li>Tidak termasuk akomodasi penginapan</li>
+                                </ul>
+                            </div>
+                            <div class="refund-reschedule-overtime">
+                                <button type="button" class="btn-lanjutkan-bayar1 btn-lg position-absolute">Lanjutkan Pembayaran</button>
+                            </div>
+                    </div>
+            </main>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>

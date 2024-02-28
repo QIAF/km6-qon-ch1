@@ -37,160 +37,186 @@
             </div>
         </nav>
     </section>
+
     <!-- hero kosong -->
     <section id="heroesp" class="py-5 px-4 m-auto">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
     </section>
-    <!-- akhir hero kosong -->
 
-    <div class="container" id="pencariaanmu">
-        <!-- Info Panel -->
-        <div class="row justify-content-center m-auto">
-            <!-- row ngebantu buat kesamping-->
-            <div class="col-lg-10 info-panel row ">
-                <!-- Area form -->
-                <!-- g memperlebar form -->
-                <form class="row row-cols-lg-auto g-2 align-items-justify">
-                    <div class="col-12">
-                        <label class="visually" for="inlineFormSelectPref">Preference</label>
-                        <select class="form-select" id="inlineFormSelectPref">
-                            <p>Tipe Driver</p>
-                            <option selected>Pilih tipe driver</option>
-                            <option value="1">Dengan Sopir</option>
-                            <option value="2">Tanpa Supir</option>
-                        </select>
-                    </div>
-    
-                    <div class="col-12">
-                        <label class="visually" for="inlineFormInputGroupUsername">Tanggal</label>
-                        <div class="input-group">
-                            <!-- input tanggal dengan typenya sendiri -->
-                            <input type="date" class="form-control" id="inlineFormInputGroupUsername"
-                                placeholder="Username">
+    <!-- Info Panel -->
+    <section id="infopanel">
+        <div class="container" id="pencariaanmu">
+            <div class="row justify-content-center m-auto">
+                <!-- row ngebantu buat kesamping-->
+                <div class="info-panel2">
+                    <!-- Area form -->
+                    <!-- g memperlebar form -->
+                    <form class="row row-cols-lg-auto p-2 align-items-justify">
+                        <div class="col-12">
+                            <label class="visually" for="inlineFormSelectPref">Preference</label>
+                            <select class="form-select" id="inlineFormSelectPref">
+                                <p>Tipe Driver</p>
+                                <option selected>Pilih tipe driver</option>
+                                <option value="1">Dengan Sopir</option>
+                                <option value="2">Tanpa Supir</option>
+                            </select>
                         </div>
-                    </div>
-                    <div class="col-12">
-                        <label class="visually" for="inlineFormInputGroupUsername">Waktu Jemput Ambil
-                        </label>
-                        <select class="form-select" id="inlineFormSelectPref">
-                            <p>Tipe Driver</p>
-                            <option selected>Pilih Waktu</option>
-                            <option value="1" style="word-spacing: 7px;">08.00 WIB</option>
-                            <option value="2">Tanpa Supir</option>
-                            <option value="1">Dengan Sopir</option>
-                            <option value="2">Tanpa Supir</option>
-                            <option value="1">Dengan Sopir</option>
-                            <option value="2">Tanpa Supir</option>
-                        </select>
-                    </div>
-                    <div class="col-12">
-                        <label class="visually" for="inlineFormInputGroupUsername">Jumlah Penumpang (optional)</label>
-                        <div class="input-group">
-                            <input type="text" class="form-control" id="inlineFormInputGroupUsername"
-                                placeholder="Username">
-                            <div class="input-group-text">@</div>
+        
+                        <div class="col-12">
+                            <label class="visually" for="inlineFormInputGroupUsername">Tanggal</label>
+                            <div class="input-group">
+                                <!-- input tanggal dengan typenya sendiri -->
+                                <input type="date" class="form-control" id="inlineFormInputGroupUsername"
+                                    placeholder="Username">
+                            </div>
                         </div>
-    
-                    </div>
-                    <div class="col-12">
-                        <br>
-                        <button type="button" class="btn btn-outline-primary">Edit</button>
-                        <!-- <button type="submit" class="btn btn-primary">Edit</button> -->
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-    <br><br>
-    <div class="container">
-        <main>  
-            <div class="row g-5">
-                <div class="col-md-5 col-lg-4 order-md-last shadow-low">
-                    <h4 class="d-flex justify-content-between align-items-center mb-3">
-                        <span class="text-primary">Nama/Tipe Mobil</span>
-                        <span class="badge bg-primary rounded-pill">3</span>
-                    </h4>
-                    <ul class="list-group mb-3">
-                        <li class="list-group-item d-flex justify-content-between lh-sm">
-                            <div>
-                                <h6 class="my-0"><b>Harga</b></h6>
-                                <small class="text-body-secondary">
-                                    <ul>
-                                        <li>1 mobil dengan pajak</li>
-                                    </ul>
-                                </small>
+                        <div class="col-12">
+                            <label class="visually" for="inlineFormInputGroupUsername">Waktu Jemput Ambil
+                            </label>
+                            <select class="form-select" id="inlineFormSelectPref">
+                                <p>Tipe Driver</p>
+                                <option selected>Pilih Waktu</option>
+                                <option value="1" style="word-spacing: 7px;">08.00 WIB</option>
+                                <option value="2">Tanpa Supir</option>
+                                <option value="1">Dengan Sopir</option>
+                                <option value="2">Tanpa Supir</option>
+                                <option value="1">Dengan Sopir</option>
+                                <option value="2">Tanpa Supir</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <label class="visually" for="inlineFormInputGroupUsername">Jumlah Penumpang (optional)</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="inlineFormInputGroupUsername"
+                                    placeholder="Username">
+                                <div class="input-group-text">@</div>
                             </div>
-                            <span class="text-body-secondary">Rp. 430.000</span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between lh-sm">
-                            <div>
-                                <h6 class="my-0"><b>Biaya Lainnya</b></h6>
-                                <small class="text-body-secondary">
-                                    <ul type="disc">
-                                        <li>Pajak</li>
-                                        <li>Biaya makan sopir</li>
-                                    </ul>
-                                </small>
-                            </div>
-                            <span class="text-body-secondary"></span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between lh-sm">
-                            <div>
-                                <h6 class="my-0"><b>Belum </b></h6>Termasuk
-                                <small class="text-body-secondary">
-                                    <ul type="disc">
-                                        <li>Bensin</li>
-                                        <li>Tol dan Parkir</li>
-                                    </ul>
-                                </small>
-                            </div>
-                            <span class="text-body-secondary">$5</span>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between">
-                            <span><b>Total</b></span>
-                            <strong><b>Rp 430.000</b></strong>
-                        </li>
-                    </ul>
-                <div class="d-grid gap-2 d-md-flex justify-content-center">
-                    <button type="button" class="btn btn-success btn-s px-4 me-md-2">Mulai Sewa Mobil</button>
-                </div>
-            </div>
-
-                <!-- pilih pembayaran, tambahan kotak shadow di inline -->
-                <div class="col-md-7 col-lg-8 shadow">
-                    <h4 class="mb-3">Pilih Bank Transfer</h4>
-                    <p>Kamu bisa membayar dengan transfer melalui ATM, Internet Banking atau Mobile Banking</p>
-                    <form class="needs-validation" novalidate="">
-                        <div class="row g-">
-                            <div class="input-group mb-3">
-                                <span class="input-group-text">BCA</span>
-                                <input type="text" aria-label="First name" class="form-control" placeholder="BCA Transfer">
-                                <div class="input-group-text">
-                                    <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
-                                </div>
-                            </div>
-                            <div class="input-group mb-3">
-                                <span class="input-group-text">BNI</span>
-                                <input type="text" aria-label="First name" class="form-control" placeholder="BNI Transfer">
-                                <div class="input-group-text">
-                                    <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
-                                </div>
-                            </div>
-                            <div class="input-group mb-3">
-                                <span class="input-group-text">Mandiri</span>
-                                <input type="text" aria-label="First name" class="form-control" placeholder="Mandiri Transfer">
-                                <div class="input-group-text">
-                                    <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
-                                </div>
-                            </div>
+                        </div>
+                        <div class="col-12">
+                            <br>
+                            <button type="button" class="cari-mobil-panel btn-primary">Cari mobil</button>
+                            <!-- <button type="submit" class="btn btn-primary">Edit</button> -->
                         </div>
                     </form>
                 </div>
             </div>
+        </div>
+        <br><br>
+    </section>
+
+    <!-- LIST PENCARIAN MOBIL  -->
+
+    <section id="daftar-mobil">
+        <div class="container">
+        <main>
+            <div class="row row-cols-1 row-cols-md-3 mb-3 ">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <img src="assets/img_car1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nama/Tipe Mobil</h5>
+                            <p class="card-text"><b>Rp 430.000 / hari</b></p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua.</li>
+                            <li class="list-group-item">
+                                <div>
+                                    <img src="assets/fi_users.png" alt="" style="padding-right: 10px;">4 orang
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div>
+                                    <img src="assets/fi_settings.png" alt="" style="padding-right:10px;">Manual
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div>
+                                    <img src="assets/fi_calendar.png" alt="" style="padding-right: 10px;">Tahun 2020
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="btn-pilih text-center py-4">
+                            <button type="button" class="btn-pilih-mobil btn-lg">Mulai Sewa Mobil</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <img src="assets/img_car1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nama/Tipe Mobil</h5>
+                            <p class="card-text"><b>Rp 430.000 / hari</b></p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna
+                                aliqua.</li>
+                            <li class="list-group-item">
+                                <div>
+                                    <img src="assets/fi_users.png" alt="" style="padding-right: 10px;">4 orang
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div>
+                                    <img src="assets/fi_settings.png" alt="" style="padding-right:10px;">Manual
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div>
+                                    <img src="assets/fi_calendar.png" alt="" style="padding-right: 10px;">Tahun 2020
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="btn-pilih text-center py-4">
+                            <button type="button" class="btn-pilih-mobil btn-lg">Mulai Sewa Mobil</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <img src="assets/img_car1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nama/Tipe Mobil</h5>
+                            <p class="card-text"><b>Rp 430.000 / hari</b></p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna
+                                aliqua.</li>
+                            <li class="list-group-item">
+                                <div>
+                                    <img src="assets/fi_users.png" alt="" style="padding-right: 10px;">4 orang
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div>
+                                    <img src="assets/fi_settings.png" alt="" style="padding-right:10px;">Manual
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div>
+                                    <img src="assets/fi_calendar.png" alt="" style="padding-right: 10px;">Tahun 2020
+                                </div>
+                            </li>
+                        </ul>
+                        <!-- py buat lebar jarak ukuran objek, text center buat objek di tengah, btn-lg size large responsive-->
+                        <div class="btn-pilih text-center py-4">
+                             <button type="button" class="btn-pilih-mobil btn-lg">Mulai Sewa Mobil</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
         </main>
-        <br><br><br>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
     <section id="footer-home">
         <div class="container">
+            <hr>
             <footer class="py-3">
                 <div class="row">
                     <div class="adress col-6 col-md-3 mb-3">
@@ -203,7 +229,6 @@
                             </li>
                         </ul>
                     </div>
-    
                     <div class="navigation col-6 col-md-3 mb-3">
                         <ul class="nav flex-column">
                             <li class="nav-item"><a href="#" class="nav-link p-0 text-body-secondary">Our services</a></li>
@@ -212,7 +237,6 @@
                             <li class="nav-item"><a href="#" class="nav-link p-0 text-body-secondary">FAQ</a></li>
                         </ul>
                     </div>
-    
                     <div class="sosmed col-6 col-md-3 mb-3">
                         <ul class="nav flex-column">
                             <li class="nav-item"><a href="#" class="nav-link p-0 text-body-secondary">Connect Us</a></li>
@@ -233,8 +257,9 @@
                     </div>
                 </div>
             </footer>
-    
-    </div>
+        </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

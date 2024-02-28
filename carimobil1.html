@@ -59,14 +59,15 @@
         </section>
 
     <!-- container -->
-    <div class="container">
-            <!-- Info Panel -->
-        <div class="row justify-content-center m-auto">
+    <!-- Info Panel -->
+    <section id="infopanel">
+        <div class="container" id="pencariaanmu">
+            <div class="row justify-content-center m-auto">
                 <!-- row ngebantu buat kesamping-->
-                <div class="col-lg-10 info-panel row ">
+                <div class="info-panel2">
                     <!-- Area form -->
                     <!-- g memperlebar form -->
-                    <form class="row row-cols-lg-auto g-2 align-items-justify">
+                    <form class="row row-cols-lg-auto p-2 align-items-justify">
                         <div class="col-12">
                             <label class="visually" for="inlineFormSelectPref">Preference</label>
                             <select class="form-select" id="inlineFormSelectPref">
@@ -76,17 +77,18 @@
                                 <option value="2">Tanpa Supir</option>
                             </select>
                         </div>
-
+    
                         <div class="col-12">
                             <label class="visually" for="inlineFormInputGroupUsername">Tanggal</label>
                             <div class="input-group">
                                 <!-- input tanggal dengan typenya sendiri -->
-                                <input type="date" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username"> 
+                                <input type="date" class="form-control" id="inlineFormInputGroupUsername"
+                                    placeholder="Username">
                             </div>
                         </div>
                         <div class="col-12">
                             <label class="visually" for="inlineFormInputGroupUsername">Waktu Jemput Ambil
-</label>
+                            </label>
                             <select class="form-select" id="inlineFormSelectPref">
                                 <p>Tipe Driver</p>
                                 <option selected>Pilih Waktu</option>
@@ -101,20 +103,22 @@
                         <div class="col-12">
                             <label class="visually" for="inlineFormInputGroupUsername">Jumlah Penumpang (optional)</label>
                             <div class="input-group">
-                                <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+                                <input type="text" class="form-control" id="inlineFormInputGroupUsername"
+                                    placeholder="Username">
                                 <div class="input-group-text">@</div>
                             </div>
-
                         </div>
                         <div class="col-12">
                             <br>
-                            <button type="button" class="btn btn-primary">Submit</button>
+                            <button type="button" class="cari-mobil-panel btn-primary">Cari mobil</button>
                             <!-- <button type="submit" class="btn btn-primary">Edit</button> -->
                         </div>
                     </form>
                 </div>
+            </div>
         </div>
-    </div>
+        <br><br>
+    </section>
     <br><br><br>
     <!-- area footer -->
     <section id="footer-home">

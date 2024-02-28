@@ -59,8 +59,7 @@ body{
 /* info panel */
 /* box bisa keatas karena margin top -50 (seusaikan) */
 .info-panel{
-    width: 1047px;
-    height: 106px;
+
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
     margin-top: -50px ;
@@ -87,5 +86,25 @@ body{
 }
 .w-100{
     background-color: #0D28A6;
-    
+}
+.btn-pilih-mobil, .btn-lanjutkan-bayar1{
+    background-color: #5CB85F;
+    color: #F1F3FF;
+    border: none;
+
+}
+.cari-mobil-panel{
+    background-color: #5CB85F ;
+    color: #F1F3FF;
+    border-radius: 3px;
+    border: none;
+}
+.info-panel1, .info-panel2{
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    margin-top: -50px ;
+    background-color: #FFFFFF;
+}
+.btn-lanjutkan-bayar1{
+    position: relative;
 }
